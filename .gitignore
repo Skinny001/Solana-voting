@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+*/target/
+**/target/
+**/.next/
+**/dist/
+**/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Solana local validator
+test-ledger/
+*/test-ledger/
+
+# Rust/Cargo
+Cargo.lock
+target/
+*/target/
+**/target/
+
+# Solana build artifacts
+*.so
+*.so.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.bak

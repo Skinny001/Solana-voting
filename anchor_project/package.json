@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@solana/spl-token": "^0.4.14"
+  }
+}

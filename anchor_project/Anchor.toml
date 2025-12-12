@@ -1,0 +1,23 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+voting = "2jP9HpT3ghFkPqYZbsPqdpmxhEFRJBkY4WzC8F56xpV9"
+
+[programs.devnet]
+voting = "2jP9HpT3ghFkPqYZbsPqdpmxhEFRJBkY4WzC8F56xpV9"
+
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/phantom_keypair.json"
+
+[scripts]
+test = "../frontend/node_modules/.bin/jest"
